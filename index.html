@@ -3,18 +3,272 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
+    <title>Kartonika</title>
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/global.css">
+    
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="hero">
+        <div class="header-description container">
+          <div class="hamburger"><img src="./images/hamburger.svg" alt="hamburger"></div>
+          <div class="logo">
+            <div><img src="./images/compny-logo.png" alt="compny-logo"  width="120"></div>
+            <p class="logo__title">Гофрокартон и
+              упаковка оптом</p>
+            </div>
+            <div class="reference">
+                <div class="reference__location">
+                  <img src="./images/location-icon.svg" alt="location-icon">
+                  <p class="reference__location__subtitle">
+                    Московская область, Раменский р-н,
+                    Бронницы, с. Михеево
+                  </p>
+                </div>
+                <div class="reference__phone">
+                  <h4 class="phone-number">+7 (495) 545-47-88</h4>
+                  <div class="reference__phone__icon">
+                    <img src="./images/clock-icon.svg" alt="clock-icon">
+                    <p class="reference__phone__icon__title">Пн-пт: 9:00 – 18:00</p>
+                  </div>
+                </div>
+                <div class="reference__email-address">
+                  <p class="reference__email-address__zakazat">Заказать обратный звонок</p>
+                  <div class="reference__email-address__icon">
+                    <img src="./images/mail-icon.svg" alt="mail-icon">
+                    <p class="reference__email-address__icon__title">zakaz@kartonika.ru</p>
+                  </div>
+                </div>
+            </div>
+            <div class="phone-icon"><img src="./images/phone-icon.svg" alt="phone"></div>
+          </div>
+
+          <div class="navbar">
+            <nav class="nav-container container">
+              <ul class="nav-container__list">
+                <li class="nav-container__list__item">
+                  <a href="#" class="nav-container__list__item_-link">Продукция</a>
+                </li>
+                <li class="nav-container__list__item">
+                  <a href="#" class="nav-container__list__item_-link">Наше производство</a>
+                </li>
+                <li class="nav-container__list__item">
+                  <a href="#" class="nav-container__list__item_-link">Услуги</a>
+                </li>
+                <li class="nav-container__list__item">
+                  <a href="#" class="nav-container__list__item_-link">доставка</a>
+                </li>
+                <li class="nav-container__list__item">
+                  <a href="#" class="nav-container__list__item_-link">контакты</a>
+                </li>
+              </ul>
+              <div class="search-box">
+                <input type="text" class="search" >
+              
+              </div>
+            </nav>
+          </div>
+
+          <div class="hero-corusel">
+            <div class="overlay"></div>
+            <div class="hero-corusel__description container">
+              <h2 class="hero-corusel__description__title">СОБСТВЕННОЕ ПРОИЗВОДСТВО ГОФРОКАРТОНА,
+                ТАРЫ И УПАКОВКИ</h2>
+               <ul >
+                <li class="hero-corusel__description__item">Работаем с 2008 года</li>
+                <li class="hero-corusel__description__item">Производим 80 000 м² картона в сутки
+                </li>
+                <li class="hero-corusel__description__item">Цены на 15% ниже рыночных</li>
+               </ul> 
+               <a href="#" class="btn">Рассчитать заказ</a>
+            </div>
+          </div>
+
+          <div class="experience container">
+            <div class="experience__description">
+            <div class="experience__description__box">
+              <h1 class="experience__description__number">13</h1>
+              <p class="experience__description__title">
+                лет опыта
+              </p>
+            </div>
+            <p class="experience__description__subtitle">
+              в производстве
+и поставках гофрокартона, тары и упаковки крупными и малыми партиями
+            </p>
+            </div>
+
+            <div class="experience__cards">
+              <div class="header__cards">
+                <div class="header__card">
+                  <div>
+                    <img src="./images/calendar-icon.svg" class="calendar" alt="">
+                  </div>
+                  <h5 class="card__title">
+                    ГАРАНТИЯ СРОКОВ
+                  </h5>
+                  <p class="card__subtitle">
+                    Сроки выполнения заказа от 3 дней! Возможна поставка в день обращения при наличии
+                  </p>
+                </div>
+                
+                  <div class="header__card">
+                    <div>
+                      <img src="./images/sena-icon.svg" class="calendar" alt="">
+                    </div>
+                    <h5 class="card__title">
+                      ЛУЧШАЯ ЦЕНА НА РЫНКЕ
+
+                    </h5>
+                    <p class="card__subtitle">
+                      3-слойный гофрокартон – от 19 руб/м2
+                      5-слойный гофрокартон – от 29 руб/м2
+                      
+                    </p>
+                  </div>
+                
+              </div>
+              <div class="header__cards">
+                <div class="header__card">
+                  <div>
+                    <img src="./images/list-icon.svg" class="calendar" alt="">
+                  </div>
+                  <h5 class="card__title">
+                    ВСЕГДА В НАЛИЧИИ
+                  </h5>
+                  <p class="card__subtitle">
+                    Временное хранение продукции на нашем складе. Возможен быстрый самовывоз.
+                  </p>
+                </div>
+                
+                  <div class="header__card">
+                    <div>
+                      <img src="./images/car-icon.svg" class="calendar" alt="">
+                    </div>
+                    <h5 class="card__title">
+                      ДОСТАВКА ДО КЛИЕНТА
+                    </h5>
+                    <p class="card__subtitle">
+                      Малыми и большими партиями,
+                      на поддонах или без (валом)
+                      
+                    </p>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
-    <main class="main"></main>
+    <main class="main">
+      <div class="main__header ">
+        <div class="main__header__container container">
+          <h2 class="main__header__title">СПЕЦПРЕДЛОЖЕНИЯ ЭТОГО МЕСЯЦА</h2>
+          <div class="main__header-box">
+         
+          <div class="main__header__cards">
+            <div class="main__header__img">
+              <img src="./images/gofokarton1.png" alt="">
+            </div>
+            <h5 class="main__header-box__title">
+              2-СЛОЙНЫЙ ГОФРОКАРТОН БУРЫЙ
+            </h5>
+            <p class="main__header-box__subtitle">от 12,5 руб/м2</p>
+           </div>
+           <div class="main__header__cards">
+            <div class="main__header__img">
+              <img src="./images/gofrokarton2.png" alt="">
+            </div>
+            <h5 class="main__header-box__title">
+              3-СЛОЙНЫЙ ГОФРОКАРТОН
+БУРЫЙ
+            </h5>
+            <p class="main__header-box__subtitle">от 12,5 руб/м2</p>
+           </div>
+    
+          
+            <div class="main__header__cards">
+              <div class="main__header__img">
+                <img src="./images/gofrokarton3.png" alt="">
+              </div>
+              <h5 class="main__header-box__title">
+                3-СЛОЙНЫЙ ГОФРОКАРТОН
+  БЕЛЫЙ
+              </h5>
+              <p class="main__header-box__subtitle">от 12,5 руб/м2</p>
+             </div>
+             <div class="main__header__cards">
+              <div class="main__header__img">
+                <img src="./images/gofrokarton4.png" alt="">
+              </div>
+              <h5 class="main__header-box__title">
+                5-СЛОЙНЫЙ ГОФРОКАРТОН
+  БЕЛЫЙ
+              </h5>
+              <p class="main__header-box__subtitle">от 12,5 руб/м2</p>
+             </div>
+          
+          </div>
+        </div>
+      </div>
+
+      <section class="product">
+        <div class="product-1">
+          <h1 class="product-title">Наша продукция</h1>
+          <div class="product-1__container container">
+            <div class="product-1__container__img">
+              <img src="./images/product1.jpg" alt="product" class="product-img">
+              <div class="img-overlay"></div>
+            </div>
+            <div class="product-1__container__description">
+              Картон Т21-22 различных размеров имеется в наличии, а так же может быть изготовлен под заказ различной длины (25, 50, 100м).  Двухслойный гофрокартон в рулонах является одним из наиболее часто используемых защитных материалов при проведении ремонтных работ, а так же для обеспечения безопасности товаров при их транспортировке. 
+Идеально подходит:
+Для защиты мебели и других предметов интерьера во время переезда или хранения;
+Для защиты любых напольных покрытий как деревянных, так и керамических во время ремонта. В отличии от обычной бумаги второй гофрированный слой дополнительно защищает покрытие от механических воздействий и повреждений. В отличии от обычной пленки не создает парниковый эффект.
+Для защиты хрупких предметов, таких как стекло, зеркала и тд.
+Для защиты окрашенных поверхностей от царапин и других повреждений;
+Для упаковки товаров и посылок
+                <div class="product-1__container__description__bottom">
+                  <p class="product-1__container__description__bottom__title">Популярные размеры (всегда в наличии):</p>
+                  <div class="product-1__container__description__bottom__list">
+                    <p>Тип картона</p>
+                    <p>Размер</p>
+                    <p>Цена</p>
+                  </div>
+                  <div class="product-1__container__description__bottom__feature">
+                    <h1 class="">Трехслойный Гофрокартон Т-21</h1>
+                    <div class="product__dec">
+                      <ul class="">
+                        <li>лист 1050 х 2000 мм</li>
+                        <li>лист 1050 х 2000 мм</li>
+                        <li>лист 1050 х 2000 мм</li>
+                        <li>лист 1050 х 2000 мм</li>
+                      </ul>
+                      <ul class="">
+                        <li>от 39 руб./лист</li>
+                        <li>от 39 руб./лист</li>
+                        <li>от 39 руб./лист</li>
+                        <li>от 39 руб./лист</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="btn-ligth ">Подробнее</a>
+                <a href="#" class=" btn">Заказать</a>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
